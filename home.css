@@ -1,0 +1,33 @@
+.navbar {
+  min-height: 80px;
+  margin-bottom: 0;
+}
+
+.container-fluid {
+  min-height: inherit;
+}
+
+ul {
+  min-height: inherit;
+}
+
+li {
+  min-height: inherit;
+}
+
+a {
+  min-height: inherit;
+}
+
+.navbar-nav>li>a {
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.navbar-header {
+  min-height: inherit;
+}
+
+.nav>li>a {
+  padding: 15px 10px;
+}
