@@ -18,11 +18,12 @@ li {
 a {
   min-height: inherit;
   font-family: Orbitron;
+  color: #20bfd2;
 }
 
 .navbar-nav>li>a {
   line-height: 40px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .navbar-header {
@@ -30,7 +31,7 @@ a {
 }
 
 .nav>li>a {
-  padding: 15px 10px;
+  padding: 15px 15px;
 }
 
 .col-lg-4 {
@@ -41,7 +42,15 @@ nav {
   text-align: center;
 }
 
-.navbar-brand {
-  margin-left: 0px;
-  padding: 0px;
+.navbar-default {
+  background-color: white;
+  border-color: #20bfd2;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #20bfd2;
+}
+
+body {
+  background-color: #f8f8f8;
 }
