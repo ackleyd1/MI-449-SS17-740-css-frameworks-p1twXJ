@@ -17,6 +17,7 @@ li {
 
 a {
   min-height: inherit;
+  font-family: Orbitron;
 }
 
 .navbar-nav>li>a {
@@ -36,6 +37,11 @@ a {
   text-align: center;
 }
 
-.nav {
+nav {
   text-align: center;
+}
+
+.navbar-brand {
+  margin-left: 0px;
+  padding: 0px;
 }
