@@ -1,3 +1,11 @@
+body {
+  min-height: 1200px;
+}
+
+.jumbotron {
+  margin-bottom: 70px;
+}
+
 .navbar {
   min-height: 80px;
   margin-bottom: 0;
@@ -57,4 +65,9 @@ body {
 
 .navbar-right {
   margin-right: 0px;
+}
+
+.col-lg-4 .glyphicon {
+  font-size: 32px;
+  color: #20bfd2;
 }
