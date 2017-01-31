@@ -42,7 +42,7 @@ a {
   padding: 15px 15px;
 }
 
-.col-lg-4 {
+.col-md-4 {
   text-align: center;
 }
 
@@ -67,7 +67,7 @@ body {
   margin-right: 0px;
 }
 
-.col-lg-4 .glyphicon {
+.col-md-4 .glyphicon {
   font-size: 32px;
   color: #20bfd2;
 }
