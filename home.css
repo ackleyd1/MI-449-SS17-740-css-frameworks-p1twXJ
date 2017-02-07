@@ -1,42 +1,53 @@
 body {
   min-height: 1200px;
-  background-color: #f8f8f8;
+  background-color: #D5FBFF;
 }
 
+/* Relative so we can center our navbar-header */
 nav {
   position: relative;
   min-height: 80px;
 }
 
+/* Specificity margin issue */
 .navbar{
   margin-bottom: 0;
 }
 
 .navbar-default {
-  background-color: white;
+  background-color: #2F3738;
   border-color: #20bfd2;
 }
-
+/* Center navbar header in the navbar */
 .navbar-header {
   width: 350px;
   height: 80px;
   position: absolute;
   top: 50%;
   left: 50%;
+}
+/* Need a more specific selector to override 0 margin */
+.container-fluid > .navbar-header {
   margin: -40px 0 0 -175px;
 }
 
 .jumbotron {
   margin-bottom: 60px;
+  background-color: #9FBCBF;
 }
 
+/* Change style on anchor navs in the navbar */
 .navbar-nav>li>a {
   line-height: 50px;
   font-size: 20px;
   min-height: inherit;
   font-family: Orbitron;
-  color: #20bfd2 !important;
   padding: 15px 15px;
+}
+
+/* Specificity issue with color on anchor navs */
+.navbar-default .navbar-nav>li>a {
+  color: #20bfd2;
 }
 
 .col-md-4 {
