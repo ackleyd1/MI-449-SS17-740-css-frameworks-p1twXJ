@@ -1,53 +1,15 @@
 body {
   min-height: 1200px;
-}
-
-.jumbotron {
-  margin-bottom: 70px;
-}
-
-.navbar {
-  min-height: 80px;
-  margin-bottom: 0;
-}
-
-.container-fluid {
-  min-height: inherit;
-}
-
-ul {
-  min-height: inherit;
-}
-
-li {
-  min-height: inherit;
-}
-
-a {
-  min-height: inherit;
-  font-family: Orbitron;
-  color: #20bfd2;
-}
-
-.navbar-nav>li>a {
-  line-height: 50px;
-  font-size: 20px;
-}
-
-.navbar-header {
-  min-height: inherit;
-}
-
-.nav>li>a {
-  padding: 15px 15px;
-}
-
-.col-md-4 {
-  text-align: center;
+  background-color: #f8f8f8;
 }
 
 nav {
-  text-align: center;
+  position: relative;
+  min-height: 80px;
+}
+
+.navbar{
+  margin-bottom: 0;
 }
 
 .navbar-default {
@@ -55,16 +17,30 @@ nav {
   border-color: #20bfd2;
 }
 
-.navbar-default .navbar-nav>li>a{
-  color: #20bfd2;
+.navbar-header {
+  width: 350px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40px 0 0 -175px;
 }
 
-body {
-  background-color: #f8f8f8;
+.jumbotron {
+  margin-bottom: 60px;
 }
 
-.navbar-right {
-  margin-right: 0px;
+.navbar-nav>li>a {
+  line-height: 50px;
+  font-size: 20px;
+  min-height: inherit;
+  font-family: Orbitron;
+  color: #20bfd2 !important;
+  padding: 15px 15px;
+}
+
+.col-md-4 {
+  text-align: center;
 }
 
 .col-md-4 .glyphicon {
